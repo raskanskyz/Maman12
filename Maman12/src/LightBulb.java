@@ -4,7 +4,7 @@
  */
 public class LightBulb {
 
-	RGBColor color;
+	RGBColor color; 
 	boolean _switchedOn;
 
 	/**

@@ -91,7 +91,7 @@ public class RGBColor {
 			setBlue(0);
 
 		}// if
-		else {
+		else { 
 			setRed(red);
 			setGreen(green);
 			setBlue(blue);

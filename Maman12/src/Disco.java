@@ -5,7 +5,7 @@ public class Disco {
 	LightBulb _bulb3;
 	LightBulb _bulb4;
 
-	/**
+	/** 
 	 * This constructor initializes this 'Disco' object and takes 4 'LightBulb'
 	 * objects as parameters.
 	 * 
