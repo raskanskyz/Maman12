@@ -18,7 +18,7 @@ public class Disco {
 	 * @param b4
 	 *            The fourth LightBulb.
 	 */
-	public Disco(LightBulb b1, LightBulb b2, LightBulb b3, LightBulb b4) {
+	public Disco(LightBulb b1, LightBulb b2, LightBulb b3, LightBulb b4) { 
 		_bulb1 = b1;
 		_bulb2 = b2;
 		_bulb3 = b3;
