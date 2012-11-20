@@ -1,6 +1,6 @@
 public class Disco {
 
-	LightBulb _bulb1;
+	LightBulb _bulb1; 
 	LightBulb _bulb2;
 	LightBulb _bulb3;
 	LightBulb _bulb4;
