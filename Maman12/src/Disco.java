@@ -19,7 +19,7 @@ public class Disco {
 	 *            The fourth LightBulb.
 	 */
 	public Disco(LightBulb b1, LightBulb b2, LightBulb b3, LightBulb b4) { 
-		_bulb1 = b1;
+		_bulb1 = b1; 
 		_bulb2 = b2;
 		_bulb3 = b3;
 		_bulb4 = b4;
