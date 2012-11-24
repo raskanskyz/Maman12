@@ -108,4 +108,9 @@ public class LightBulb {
 		return "(" + color.getRed() + "," + color.getGreen() + ","
 				+ color.getBlue() + ") " + onOrOff + "";
 	}// toString
+
+	public static void main(String[] args) {
+		LightBulb b = new LightBulb(-5, 10, -1);
+		System.out.println(b.toString());
+	}
 }// class

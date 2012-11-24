@@ -1,11 +1,11 @@
 public class Disco {
 
-	LightBulb _bulb1; 
+	LightBulb _bulb1;
 	LightBulb _bulb2;
 	LightBulb _bulb3;
 	LightBulb _bulb4;
 
-	/** 
+	/**
 	 * This constructor initializes this 'Disco' object and takes 4 'LightBulb'
 	 * objects as parameters.
 	 * 
@@ -18,11 +18,11 @@ public class Disco {
 	 * @param b4
 	 *            The fourth LightBulb.
 	 */
-	public Disco(LightBulb b1, LightBulb b2, LightBulb b3, LightBulb b4) { 
-		_bulb1 = b1; 
-		_bulb2 = b2;
-		_bulb3 = b3;
-		_bulb4 = b4;
+	public Disco(LightBulb b1, LightBulb b2, LightBulb b3, LightBulb b4) {
+		_bulb1 = new LightBulb(b1);
+		_bulb2 = new LightBulb(b2);
+		_bulb3 = new LightBulb(b3);
+		_bulb4 = new LightBulb(b4);
 	}// CTOR
 
 	/**
