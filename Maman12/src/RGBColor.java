@@ -4,7 +4,7 @@
  * 
  */
 public class RGBColor {
-
+ 
 	private int red;
 	private int green;
 	private int blue;
@@ -23,7 +23,9 @@ public class RGBColor {
 	 *            Sets the intensity of red in this RGBColor.
 	 */
 	public void setRed(int red) {
-		this.red = red;
+		if (red >= 0 && red < 256) {
+			this.red = red;
+		}
 	}
 
 	/**
@@ -40,7 +42,9 @@ public class RGBColor {
 	 *            Sets the intensity of green in this RGBColor.
 	 */
 	public void setGreen(int green) {
-		this.green = green;
+		if (green >= 0 && green < 256) {
+			this.green = green;
+		}
 	}
 
 	/**
@@ -57,7 +61,9 @@ public class RGBColor {
 	 *            Sets the intensity of blue in this RGBColor.
 	 */
 	public void setBlue(int blue) {
-		this.blue = blue;
+		if (blue >= 0 && blue < 256) {
+			this.blue = blue;
+		}
 	}
 
 	/**
